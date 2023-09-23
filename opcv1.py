@@ -11,10 +11,10 @@ if not cap.isOpened():
 i=0
 
 while True:
-# Capture frame-by-frame
+
 	ret, frame = cap.read()
 	
-# if frame is read correctly ret is True
+
 	if not ret:
 		print("Can't receive frame (stream end?). Exiting ...")
 		break
