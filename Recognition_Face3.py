@@ -28,7 +28,7 @@ face_names = []
 process_this_frame = True
 
 while True:
-    # Grab a single frame of video
+    
     ret, frame = video_capture.read()
 
     # Only process every other frame of video to save time
