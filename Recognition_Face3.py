@@ -4,7 +4,7 @@ import numpy as np
 import os
 
 
-# Get a reference to webcam #0 (the default one)
+
 video_capture = cv2.VideoCapture(0)
 
 	
@@ -21,7 +21,7 @@ known_face_encodings = [obama_face_encoding, biden_face_encoding]
 
 known_face_names = ["Barack Obama", "Joe Biden"]
 
-# Initialize some variables
+
 face_locations = []
 face_encodings = []
 face_names = []
