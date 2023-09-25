@@ -3,10 +3,7 @@ import cv2
 import numpy as np
 import os
 
-
-
 video_capture = cv2.VideoCapture(0)
-
 	
 # Load a sample picture and learn how to recognize it.
 obama_image = face_recognition.load_image_file("obama.jpg")
